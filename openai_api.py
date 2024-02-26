@@ -1,6 +1,6 @@
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = None
 
 from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate
